@@ -99,8 +99,28 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+### Technology Readiness Levels based development:
+Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
 
-### Project development roadmap
+![TRL](./images/tlr.jpeg) <div align="right"> Image Credit: NASA </div>
+
+We planned our project based on these 'nine' levels wherein we have acheived all the nine levels and are ready to move ahead with full fledged product launch. One can see how the development shaped up by going through our project development phase by looking into ["Development Memories"](https://github.com/CFC2k22Organisation/SwachBin-Main/tree/main/Development%20Memories)
+## Features
+1. All in one bin (can collect and segregate five types of trash)
+2. IoT dashboard helps in reducing carbon emissions by helping the municipal body to plan trips to households on need basis
+3. Ultra low cost (the HW components are easily available in market and at low cost and when produced enmasse the cost will futher come down)
+4. Highly portable
+5. Educates the user by explaining the type of trash they disposed by using Text-To-Speech (In future, we have planned to provide real time regional langugage translation as well)
+6. Uses state of the art tech - AI, computer vision, IoT to name a few
+7. Uses 'responsible' & 'ethical' AI practices by maintaining transparency and accountability throughout
+
+**Key Modules of swachBin:**
+1. Hardware based front end
+2. AI driven middle ware
+3. IoT and SQL infused backend
+
+
+## Project development roadmap
 
 The project currently does the following things.
 
