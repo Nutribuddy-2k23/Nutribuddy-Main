@@ -116,7 +116,7 @@ We planned our project based on these 'nine' levels wherein we have acheived all
 3. IoT and Generative AI infused User interface
 
 ## Project development roadmap
-![Roadmap](./images/nutriBuddyRoadmapNew.jpeg)
+![Roadmap](./images/nutriBuddyRoadmapUpdated.png)
 
 ## Built with
 ![Techonology](./images/tech_logos.jpeg)
