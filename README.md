@@ -123,7 +123,7 @@ We planned our project based on these 'nine' levels wherein we have acheived all
 ![Roadmap](./images/nutriBuddyRoadmapNew.jpeg)
 
 ## Built with
-![Techonology](./images/tech_logos.jpg)
+![Techonology](./images/tech_logos.jpeg)
 
 ## Installation
 * PowerUp the builtin Raspberry Pi module by connecting it to a power socket
