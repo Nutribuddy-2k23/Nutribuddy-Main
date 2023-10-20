@@ -1,4 +1,4 @@
-# NutriBuddy ![Logo](./images/nutribuddylogo.jpeg)
+# NutriBuddy ![Logo](./images/nutriBuddyLogo.jpeg)
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) 
 
