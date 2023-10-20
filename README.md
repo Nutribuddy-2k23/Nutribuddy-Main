@@ -102,7 +102,7 @@ _INSTRUCTIONS: The following deliverables should be officially posted to your My
 ### Technology Readiness Levels based development:
 Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
 
-![TRL](./images/tlr.jpeg) <div align="right"> Image Credit: NASA </div>
+![TRL](./images/tlr.jpg) <div align="right"> Image Credit: NASA </div>
 
 We planned our project based on these 'nine' levels wherein we have acheived all the nine levels and are ready to move ahead with full fledged product launch. One can see how the development shaped up by going through our project development phase by looking into ["Development Memories"](https://github.com/CFC2k22Organisation/SwachBin-Main/tree/main/Development%20Memories)
 ## Features
