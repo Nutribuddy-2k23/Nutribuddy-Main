@@ -97,8 +97,8 @@ Diagram and step-by-step description of the flow of our solution:
 _INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
+[![Watch the video](./images/nutriBuddy_YT_Thumbnail.jpg)](https://youtu.be/za7WmKvI8i4)
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 ### Technology Readiness Levels based development:
 Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
 
@@ -106,74 +106,54 @@ Technology Readiness Levels (TRL) are a type of measurement system used to asses
 
 We planned our project based on these 'nine' levels wherein we have acheived all the nine levels and are ready to move ahead with full fledged product launch. One can see how the development shaped up by going through our project development phase by looking into ["Development Memories"](https://github.com/CFC2k22Organisation/SwachBin-Main/tree/main/Development%20Memories)
 ## Features
-1. All in one bin (can collect and segregate five types of trash)
-2. IoT dashboard helps in reducing carbon emissions by helping the municipal body to plan trips to households on need basis
-3. Ultra low cost (the HW components are easily available in market and at low cost and when produced enmasse the cost will futher come down)
+1. Ultra low cost and futuristic solution for precision nutrient feeding for plants
+2. The HW components are easily available in market when produced enmasse the cost will futher come down
 4. Highly portable
-5. Educates the user by explaining the type of trash they disposed by using Text-To-Speech (In future, we have planned to provide real time regional langugage translation as well)
+5. Educates the user by explaining the plant condition using Text-To-Speech (In future, we have planned to provide real time regional langugage translation as well)
 6. Uses state of the art tech - AI, computer vision, IoT to name a few
 7. Uses 'responsible' & 'ethical' AI practices by maintaining transparency and accountability throughout
+8. Employed Design Thinking in designing phase
 
-**Key Modules of swachBin:**
+**Key Modules of NutriBuddy:**
 1. Hardware based front end
 2. AI driven middle ware
-3. IoT and SQL infused backend
-
+3. IoT and Generative AI infused User interface
 
 ## Project development roadmap
-
-The project currently does the following things.
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-In the future we plan to...
-
-See below for our proposed schedule on next steps after Call for Code 2023 submission.
-
 ![Roadmap](./images/nutriBuddyRoadmap.jpeg)
 
-## Additional details
+## Built with
+![Techonology](./images/tech_logos.jpg)
 
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
+## Installation
+* PowerUp the builtin Raspberry Pi module by connecting it to a power socket
+* Connect the Raspberry Pi to a WiFi / Mobile Hotspot
 
-### How to run the project
+## Getting started
+* Using the RaspController App / vnc viewer software (or similar) login into the Pi and run the executable code
+* Get a plant near to the NutriBuddy camera and see it springing into action
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+## Live Demo
+We have deployed the system at..
+[NutriBuddy Live Deployement](https://nutribuddy.pythonanywhere.com)
+User name: admin
+Password: admin123
+![Dashboard](./images/dashboard.jpg)
 
-### Live demo
+![Generative AI Bot Powered by Watson X](./images/genaibot.jpg)
 
-You can find a running system to test at...
+## Additional Video Demo links 
+- [NutriBuddy deployed in HapphyGreenz farm](https://youtu.be/za7WmKvI8i4)
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
----
+## Team
+- [Bharathi Athinarayanan](https://github.com/rathisoft) - _Product owner & AI / ML architect_ 
+- [Suneetha Jonnadula](https://github.com/Sunivihaan) - _Lead Full stack developer_
+- [Prashanth P](https://github.com/Prashanthp) - _Principal Application developer_
+- [Mohamed Fazil](https://github.com/Fazil-24) - _AI / ML Development Engineer_
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
+## License
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+## Acknowledgments
+We partnered with [HapphyGreenz farms](https://maps.app.goo.gl/nE4qY5KpnZhF3peT6), One of Bengaluru's leading Hydroponic farms. We are thankful for their inputs that played a crucial role in undestanding the pain and devise a solution using IBM technologies.
