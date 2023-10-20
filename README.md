@@ -16,12 +16,11 @@
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
-- [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
+  - [Built With](#built-with)
+  - [The Team](#team)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
+
 ## Project summary
 
 ### The issue we are hoping to solve is "global food insecurity" through sustainable farming practices
@@ -50,32 +49,30 @@ All data collected and processed by Nutri Buddy is securely stored in IBM Cloud 
 By optimizing growth, Nutri Buddy not only maximizes yield but also minimizes waste. Each plant receives exactly what it needs and nothing more. This contributes significantly to reducing global food insecurity by improving distribution and promoting sustainable farming practices.
 
 **Improvement Over Existing Solutions:**
-Nutri Buddy stands out from existing solutions in several ways. Firstly, it combines computer vision with a TDS meter to provide a comprehensive understanding of a plant's health and nutritional needs. This level of detail is often missing in traditional hydroponics systems which are mainly sensor-driven.
+Nutri Buddy stands out from existing solutions in several ways. 
 
-Secondly, Nutri Buddy uses AI to analyze this data and determine the precise nutrition each plant needs. This precision reduces waste and ensures each plant gets exactly what it needs for optimal growth.
+- It combines computer vision with a TDS meter to provide a comprehensive understanding of a plant's health and nutritional needs. This level of detail is often missing in traditional hydroponics systems which are mainly sensor-driven.
 
-The inclusion of a generative AI bot adds another layer of sophistication by providing predictive insights into future growth patterns and potential issues. This feature allows for proactive management of plant health.
+ - Nutri Buddy uses AI to analyze this data and determine the precise nutrition each plant needs. This precision reduces waste and ensures each plant gets exactly what it needs for optimal growth.
 
-Lastly, by storing all data in IBM Cloud Storage, Nutri Buddy allows for real-time monitoring and long-term analysis. This feature enables users to track their plants' progress over time and make data-driven decisions about their farming practices.
+- The inclusion of a generative AI bot adds another layer of sophistication by providing predictive insights into future growth patterns and potential issues. This feature allows for proactive management of plant health.
 
-Furthermore, while existing AI solutions can be expensive often running into few lakhs of Indian ruppees , Nutri Buddy significantly reduces costs by leveraging Raspberry Pi technology. This brings down the cost from lakhs to just a few thousands Indian rupees. When produced en masse, the cost will be under 1000 (less than 10 USD). Just with the help of internet connectivity, users can engage in sustainable farming in an ultra-precise way from anywhere in the world.
+- Lastly, by storing all data in IBM Cloud Storage, Nutri Buddy allows for real-time monitoring and long-term analysis. This feature enables users to track their plants' progress over time and make data-driven decisions about their farming practices.
+
+Furthermore, while existing AI solutions can be expensive often running into few lakhs of Indian ruppees, Nutri Buddy significantly reduces costs by leveraging Raspberry Pi technology. This brings down the cost from lakhs to just a few thousands Indian rupees. When produced en masse, the cost will be under 1000 INR (less than 10 USD). Just with the help of internet connectivity, users can engage in sustainable farming in an ultra-precise way from anywhere in the world.
 
 ## Technology implementation
 
 ### IBM AI service(s) used
-
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
-
 - [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
   Used to deploy, manage and integrate our machine learning models for plant identification and classification
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
+- [Watson X](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - Watsonx is an AI and data platform with three core components and a set of AI assistants designed to help scale and accelerate the impact of AI with trusted data across the solution. We used it for creating a Generative AI based chatbot by using PromptLab
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - The Text to Speech service helped us to convert written text to natural-sounding speech. This makes our product accessiblity friendly because even visually challenged people can also get benefit out of it.
+- [Auto AI](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=models-autoai) - Using this graphical tool in Watson Studio we analyzes our data to discover data transformations, algorithms, and parameter settings that work best for our predictive modeling problem. 
 
 ### Other IBM technology used
-
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+- [Cloud Object Storage](https://cloud.ibm.com/objectstorage/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9c3RvcmFnZSNzZXJ2aWNlcw%3D%3D)
+This service helped us to store our ML model and provided the expected scalability in a seamless way along with greater resiliency and added security.
 
 ### Solution architecture
 
@@ -93,9 +90,6 @@ Diagram and step-by-step description of the flow of our solution:
 8. The plant health status is also conveyed to the user via a speaker in real time by using IBM's Text to Speech service.
 
 ## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 [![Watch the video](./images/nutriBuddy_YT_Thumbnail.jpg)](https://www.youtube.com/watch?v=AaRl_7nD2YU)
 
