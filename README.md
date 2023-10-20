@@ -24,7 +24,7 @@
   - [Acknowledgments](#acknowledgments)
 ## Project summary
 
-### The issue we are hoping to solve is "global food insecurity" through sustainable farming pracitices
+### The issue we are hoping to solve is "global food insecurity" through sustainable farming practices
 **Global food insecurity** is a pressing issue that affects millions of people worldwide. The challenge lies in producing enough food to meet the growing demand and ensuring that it is distributed efficiently to reach those in need. Traditional farming practices often fall short in terms of yield, sustainability, and adaptability to various environmental conditions.
 
 ### How our technology solution can help
