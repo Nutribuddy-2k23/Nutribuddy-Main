@@ -81,7 +81,7 @@ INSTRUCTIONS: List any other IBM technology used in your solution and describe h
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Architecture](./images/nutriBuddyArchitecture.jpeg)
 
 1. The plants' images are captured using Picamera attached with Raspberry Pi.
 2. The hydroponics setup employs a TDS sensor to assess water quality.
