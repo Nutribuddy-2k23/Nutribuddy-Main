@@ -97,7 +97,7 @@ Diagram and step-by-step description of the flow of our solution:
 _INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
 
 ### Solution demo video
-[![Watch the video](./images/nutriBuddy_YT_Thumbnail.jpg)](https://youtu.be/za7WmKvI8i4)
+[![Watch the video](./images/nutriBuddy_YT_Thumbnail.jpg)](https://www.youtube.com/watch?v=AaRl_7nD2YU)
 
 ### Technology Readiness Levels based development:
 Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
