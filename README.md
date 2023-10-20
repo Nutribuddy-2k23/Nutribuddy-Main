@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) 
 
-# NutriBuddy (Watson X powered Generative & Responsible AI Tool) by Team Meraki
+# WatsonX powered Generative & Responsible AI Tool for sustainable and precision farming
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
