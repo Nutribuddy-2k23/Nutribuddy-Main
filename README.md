@@ -80,7 +80,7 @@ This service helped us to store our ML model and provided the expected scalabili
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Architecture](./images/nutriBuddyArchitecture.jpeg)
+![Architecture](./images/Nutribuddy_architecture_revised.png)
 
 1. The 'plants' images are captured using Picamera attached with Raspberry Pi.
 2. The hydroponics setup employs a TDS sensor to assess water quality.
@@ -119,7 +119,7 @@ We planned our project based on these 'nine' levels wherein we have acheived all
 ![Roadmap](./images/nutriBuddyRoadmapUpdated.png)
 
 ## Built with
-![Techonology](./images/tech_logos.jpeg)
+![Techonology](./images/Tech_stack_corrected.png)
 
 ## Installation
 * PowerUp the builtin Raspberry Pi module by connecting it to a power socket
