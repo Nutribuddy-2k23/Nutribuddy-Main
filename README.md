@@ -82,13 +82,13 @@ Diagram and step-by-step description of the flow of our solution:
 
 ![Architecture](./images/nutriBuddyArchitecture.jpeg)
 
-1. The plants' images are captured using Picamera attached with Raspberry Pi.
+1. The 'plants' images are captured using Picamera attached with Raspberry Pi.
 2. The hydroponics setup employs a TDS sensor to assess water quality.
-3. Both collected inputs are transmitted to the AI Engine, which analyzes them to determine the plants' current health status. We used YoloV8, the latest version of the YOLO object detection algorithm, which is known for its improved accuracy, enhanced speed, support for multiple backbones, adaptive training, advanced data augmentation techniques, customizable architecture, and availability of pre-trained models.
+3. Both collected inputs are transmitted to the AI Engine, which analyzes them to determine the 'plants' current health status. We used YoloV8, the latest version of the YOLO object detection algorithm, which is known for its improved accuracy, enhanced speed, support for multiple backbones, adaptive training, advanced data augmentation techniques, customizable architecture, and availability of pre-trained models.
 4. The captured data is logged into the IBM cloud storage.
 5. Based on the plant’s health conditions, the system decides whether to activate the Nutrients tank solenoid valve using specific relays.
 6. The Nutribuddy IoT Dashboard displays all activities, key performance indicators (KPIs), and images related to the setup.
-7. Integrated into the dashboard is a Generative AI bot powered by IBM WatsonX, designed to answer queries regarding the plants' well-being.
+7. Integrated into the dashboard is a Generative AI bot powered by IBM WatsonX, designed to answer queries regarding the 'plants' well-being.
 8. The plant health status is also conveyed to the user via a speaker in real time by using IBM's Text to Speech service.
 
 ## Presentation materials
@@ -96,7 +96,7 @@ Diagram and step-by-step description of the flow of our solution:
 [![Watch the video](./images/nutriBuddy_YT_Thumbnail.jpg)](https://www.youtube.com/watch?v=AaRl_7nD2YU)
 
 ### Technology Readiness Levels based development:
-Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
+Technology Readiness Levels (TRL) are a type of measurement system used to assess the maturity level of a particular technology project where in, it is evaluated against the parameters for each technology level and is then assigned a TRL rating based on the projects progress. There are nine technology readiness levels. TRL 1 is the lowest and TRL 9 is the highest. [(source)](https://www.nasa.gov/directorates/heo/scan/engineering/technology/technology_readiness_level)
 
 ![TRL](./images/tlr.jpg) <div align="right"> Image Credit: NASA </div>
 
@@ -106,7 +106,7 @@ We planned our project based on these 'nine' levels wherein we have acheived all
 2. The HW components are easily available in market when produced enmasse the cost will futher come down
 4. Highly portable
 5. Educates the user by explaining the plant condition using Text-To-Speech (In future, we have planned to provide real time regional langugage translation as well)
-6. Uses state of the art tech - AI, computer vision, IoT to name a few
+6. Uses state of the art tech - AI, computer vision, IoT
 7. Uses 'responsible' & 'ethical' AI practices by maintaining transparency and accountability throughout
 8. Employed Design Thinking in designing phase
 
