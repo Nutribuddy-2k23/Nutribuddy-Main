@@ -30,7 +30,7 @@
 
 ### How our technology solution can help
 
-Nutri Buddy is an AI-powered hydroponics system, a method to grow plants without soil and by using mineral nutrietns added to Water. It uses IBM Watson X, Auto AI, Cloud Storage, and Text to Speech, along with Raspberry Pi. The system monitors plant health, provides precise nutrition, predicts future growth patterns, and adheres to responsible AI practices thus promoting sustainable farming practices.
+Nutri Buddy is an AI-powered hydroponics system, a method to grow plants without soil and by using mineral nutrients added to Water. It uses IBM Watson X, Auto AI, Cloud Storage, and Text to Speech, along with Raspberry Pi. The system monitors plant health, provides precise nutrition, predicts future growth patterns, and adheres to responsible AI practices thus promoting sustainable farming practices.
 
 ### Our idea
 
